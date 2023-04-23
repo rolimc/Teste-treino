@@ -6,6 +6,7 @@ git status
 para confirmar acesso e login, digitar linhas dois e tres sem a msg
 git add . ou * - Se adicionar "." ou "*" adiciona tudo que tem na pasta
 git commit -m "nome do arquivo", atualiza a pasta com os arquivos criados - A cada commit surge uma nova versão do codigo 
-Abrir o site github, adicionar nova pasta e seguir as linhas de codigo da URL do repositorio. Primeiro chamando a branch principal, depois colando a URL de destino seguido pelo push
+Abrir o site github, adicionar nova pasta e seguir as linhas de codigo da URL do repositorio. Primeiro chamando a branch principal, depois colando a URL de destino (git remote add origin + URL) seguido pelo push
 $ git branch -M main
-git push -u oringin main
+git push -u origin main
+git pull - atualiza o que não esta na minha rede local 
